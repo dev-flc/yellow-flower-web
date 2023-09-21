@@ -368,39 +368,68 @@ body {
 .title {
     font-family: 'Nunito', sans-serif;
     animation: open-flower-middle 2s 0.4s backwards;
-    position: absolute;
     align-items: baseline;
     display: flex;
-    height: 90%;
     justify-content: center;
-    width: 50%;
     color: #45B39D;
+    z-index: 232323;
+    font-size: 25px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 16px 16px 0px 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.6px);
+    -webkit-backdrop-filter: blur(3.6px);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
 }
 
 .title2{
     font-family: 'Nunito', sans-serif;
     z-index: 232323;
     animation: open-flower-middle 2s 0.4s backwards;
-    position: absolute;
     align-items: baseline;
     display: flex;
-    height: 85%;
     justify-content: center;
-    width: 50%;
     color: #52BE80;
     text-align: center;
+    backdrop-filter: blur(10px);
+    font-size: 25px;
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.6px);
+    -webkit-backdrop-filter: blur(3.6px);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .title3 {
+    z-index: 232323;
     font-family: 'Nunito', sans-serif;
     animation: open-flower-middle 2s 0.4s backwards;
-    position: absolute;
     align-items: baseline;
     display: flex;
-    height: 75%;
     justify-content: center;
-    width: 50%;
     color: #45B39D;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 0px 0px 16px 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.6px);
+    -webkit-backdrop-filter: blur(3.6px);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.content-text{ 
+    position: absolute;
+    flex-direction:column;
+    display: flex;
+    height: 95%;
+    width: 50%;
 }
